@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="Images/security.webp" />
+      <form id="Mainform" novalidate>
+        <h2>Login Form</h2>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            autocomplete="off"
+          />
+          <i class="icon"></i>
+        </div>
+
+        <div class="form-control">
+          <label for="surnname">Surname</label>
+          <input
+            type="text"
+            id="surname"
+            placeholder="Enter your surname"
+            autocomplete="off"
+          />
+          <i class="icon"></i>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Enter your Email"
+            autocomplete="off"
+          />
+          <i class="icon"></i>
+        </div>
+
+        <div class="form-control">
+          <label for="password">password</label>
+          <input
+            type="text"
+            id="password"
+            placeholder="Enter your password"
+            autocomplete="off"
+          />
+          <i class="icon"></i>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="successModel" class="model">
+      <div class="model-content">
+        <span class="close-button">&times;</span>
+        <h2>Sucess!</h2>
+        <p>Your form has been submitted successfully.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
